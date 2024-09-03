@@ -2,7 +2,7 @@
 
 This is a side project to build my own AI agentic school that teaches me anything. [LangGraph.js](https://github.com/langchain-ai/langgraphjs) projects in [LangGraph Studio](https://github.com/langchain-ai/langgraph-studio).
 
-![LangGraph Studio](static/studio.png)
+<!-- ![LangGraph Studio](static/studio.png) -->
 
 ## Getting Started
 
