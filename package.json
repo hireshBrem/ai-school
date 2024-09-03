@@ -2,9 +2,20 @@
   "name": "langgraphjs-studio-starter",
   "packageManager": "yarn@1.22.22",
   "dependencies": {
+    "@langchain/anthropic": "^0.2.15",
     "@langchain/community": "^0.2.31",
     "@langchain/core": "^0.2.31",
     "@langchain/langgraph": "^0.1.10-rc.3",
-    "@langchain/openai": "^0.2.8"
+    "@langchain/openai": "^0.2.8",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "start": "ts-node --esm src/run.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }
